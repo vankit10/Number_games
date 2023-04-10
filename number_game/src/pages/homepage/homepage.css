@@ -1,0 +1,38 @@
+
+.main-ctn{
+    height:100vh;
+    width:100vw;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.number{
+    font-family: sans-serif;
+    color: white;
+    font-size: 100px;
+}
+
+.increase,.decrease{
+    width: 220px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.increase{
+    background-color: green;
+    color: white;
+
+}
+
+.decrease{
+    background-color: red;
+    color: white;
+}
