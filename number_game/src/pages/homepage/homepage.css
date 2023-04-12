@@ -2,7 +2,7 @@
 .main-ctn{
     height:100vh;
     width:100vw;
-    background-color: aquamarine;
+    background-color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,4 +35,40 @@
 .decrease{
     background-color: red;
     color: white;
+}
+
+.warning-box{
+    height:300px;
+    width: 600px;
+    background-color:rgb(255, 255, 255);
+    opacity: 1;
+    margin-left: -40px;
+    display: flex;
+    position: absolute;
+    margin-top: -200px;
+   
+}
+
+.warning{    
+    margin-top: 110px;
+    margin-left: 150px;
+    position: fixed;
+    color: rgb(0, 0, 0);
+}
+.close{
+    font-size: 20px;
+    height: 20px;
+    width: 20px;
+    border: none;
+    margin-left: 580px;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+    position: fixed;
+}
+
+.hr{
+    color: black;
+    width:70%
+    
 }
